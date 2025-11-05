@@ -92,6 +92,9 @@ Install dependencies:
 # Ensure torch >= 2.4.0
 pip install -r requirements.txt
 ```
+If it have problem Remove the flash attention on requiremnets
+pip install xformers  
+pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0
 
 
 #### Model Download
